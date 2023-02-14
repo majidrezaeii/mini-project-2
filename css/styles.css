@@ -156,4 +156,30 @@ html{
     text-align: justify;
     word-spacing: -1px;
 }
-
+/* footer */
+.footer{
+    margin-top: 15px;
+    background-color: orange;
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+.footer ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 40px 100px ;
+    
+    
+}
+.footer li{
+    padding: 5px 0 ;
+    font-size: x-large;
+    text-align: left;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer h2{
+    text-align: left;
+}
