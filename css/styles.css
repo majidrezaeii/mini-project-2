@@ -6,6 +6,13 @@
 html{
     scroll-behavior: smooth;
 }
+@font-face{
+    font-family: googlefont;
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+body{
+    font-family: googlefont;
+}
 /* header */
 .header ul{
     list-style-type: none;   
