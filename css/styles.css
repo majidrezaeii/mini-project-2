@@ -13,12 +13,15 @@ html{
 body{
     font-family: googlefont;
 }
+
 /* header */
 .header ul{
-    list-style-type: none;   
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
 }
 .header li{
-    display: inline-block;
    margin-left: 51px;
    margin-top: 50px;
 }
@@ -182,6 +185,7 @@ body{
     padding: 5px 0 ;
     font-size: x-large;
     text-align: left;
+    
 }
 .footer a{
     text-decoration: none;
@@ -189,4 +193,7 @@ body{
 }
 .footer h2{
     text-align: left;
+}
+.footer p{
+    font-style: italic;
 }
