@@ -83,6 +83,7 @@ body {
 /* members */
 .members {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style-type: none;
 }
@@ -105,30 +106,30 @@ body {
     font-size: 47px;
     color: orange;
     margin-top: 25px;
-    text-shadow:
 }
 
 .members li {
-    text-align: left;
+    /* text-align: left; */
     transition: all 0.4s;
-    width: 300px;
-    height: 580px;
-    display: inline-block;
+    width: 250px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
     margin: 37px 30px 0;
     border: solid black 2px;
     box-shadow: 0 0 20px 1px rgb(97, 97, 97);
 }
 
 .members li:hover {
-    width: 400px;
-    height: 630px;
-    display: inline-block;
+    width: 300px;
+    height: 600px;
     margin: 37px 30px 0;
     border: solid orange 2px;
 }
 
 .members img {
     width: 100%;
+    height: 70%;
 }
 
 .members h3 {
@@ -138,6 +139,9 @@ body {
 }
 
 .members p {
+    position: relative;
+    display: flex;
+    flex-flow: nowrap;
     height: 300px;
     padding: 20px;
     font-size: large;
@@ -148,6 +152,8 @@ body {
 
 /* about */
 .about {
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
     background-image: url(../Images/Untitled-1.png);
     width: auto;
@@ -159,26 +165,27 @@ body {
 }
 
 .about .circle {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 255, 255, 0.5);
     width: 550px;
     height: 550px;
     border-radius: 50%;
     padding: 25px;
-    margin: auto;
     box-shadow: 0 0 15px 0.2px black;
 }
 
 .about .circle h3 {
     transition: all 0.3s;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 35px;
     text-shadow: 1px 1px 5px rgb(118, 117, 117);
 }
 
 .about .circle h3:hover {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 37px;
     color: orange;
     text-shadow: 1px 1px 5px rgb(118, 117, 117);
@@ -186,7 +193,7 @@ body {
 
 .about .circle p {
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 22px;
     padding: 0 25px 10px 25px;
     text-align: justify;
     word-spacing: -1px;
